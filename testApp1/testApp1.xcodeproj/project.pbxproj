@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		36A1DF712A8164A300614F34 /* testApp1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A1DF702A8164A300614F34 /* testApp1App.swift */; };
 		36A1DF752A8164A600614F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36A1DF742A8164A600614F34 /* Assets.xcassets */; };
-		36A1DF832A8164A600614F34 /* testApp1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A1DF822A8164A600614F34 /* testApp1Tests.swift */; };
 		36A1DF8D2A8164A600614F34 /* testApp1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A1DF8C2A8164A600614F34 /* testApp1UITests.swift */; };
 		36A1DF8F2A8164A600614F34 /* testApp1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A1DF8E2A8164A600614F34 /* testApp1UITestsLaunchTests.swift */; };
 		36A1DF9D2A81650B00614F34 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 36A1DF9C2A81650B00614F34 /* FirebaseAnalytics */; };
@@ -435,7 +434,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36A1DF832A8164A600614F34 /* testApp1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
