@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		36A1DF712A8164A300614F34 /* testApp1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A1DF702A8164A300614F34 /* testApp1App.swift */; };
-		36A1DF732A8164A300614F34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A1DF722A8164A300614F34 /* ContentView.swift */; };
 		36A1DF752A8164A600614F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36A1DF742A8164A600614F34 /* Assets.xcassets */; };
-		36A1DF792A8164A600614F34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36A1DF782A8164A600614F34 /* Preview Assets.xcassets */; };
 		36A1DF832A8164A600614F34 /* testApp1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A1DF822A8164A600614F34 /* testApp1Tests.swift */; };
 		36A1DF8D2A8164A600614F34 /* testApp1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A1DF8C2A8164A600614F34 /* testApp1UITests.swift */; };
 		36A1DF8F2A8164A600614F34 /* testApp1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A1DF8E2A8164A600614F34 /* testApp1UITestsLaunchTests.swift */; };
@@ -63,10 +61,8 @@
 /* Begin PBXFileReference section */
 		36A1DF6D2A8164A300614F34 /* testApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36A1DF702A8164A300614F34 /* testApp1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testApp1App.swift; sourceTree = "<group>"; };
-		36A1DF722A8164A300614F34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		36A1DF742A8164A600614F34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36A1DF762A8164A600614F34 /* testApp1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = testApp1.entitlements; sourceTree = "<group>"; };
-		36A1DF782A8164A600614F34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		36A1DF7E2A8164A600614F34 /* testApp1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testApp1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36A1DF822A8164A600614F34 /* testApp1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testApp1Tests.swift; sourceTree = "<group>"; };
 		36A1DF882A8164A600614F34 /* testApp1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testApp1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,20 +146,10 @@
 			isa = PBXGroup;
 			children = (
 				36A1DF702A8164A300614F34 /* testApp1App.swift */,
-				36A1DF722A8164A300614F34 /* ContentView.swift */,
 				36A1DF742A8164A600614F34 /* Assets.xcassets */,
 				36A1DF762A8164A600614F34 /* testApp1.entitlements */,
-				36A1DF772A8164A600614F34 /* Preview Content */,
 			);
 			path = testApp1;
-			sourceTree = "<group>";
-		};
-		36A1DF772A8164A600614F34 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				36A1DF782A8164A600614F34 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		36A1DF812A8164A600614F34 /* testApp1Tests */ = {
@@ -319,7 +305,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36A1DF792A8164A600614F34 /* Preview Assets.xcassets in Resources */,
 				36A1DF752A8164A600614F34 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,7 +330,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36A1DF732A8164A300614F34 /* ContentView.swift in Sources */,
 				36A1DF712A8164A300614F34 /* testApp1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,7 +489,6 @@
 				CODE_SIGN_ENTITLEMENTS = testApp1/testApp1.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"testApp1/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -518,7 +501,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.4;
@@ -530,7 +513,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -542,7 +525,6 @@
 				CODE_SIGN_ENTITLEMENTS = testApp1/testApp1.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"testApp1/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -555,7 +537,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.4;
@@ -567,7 +549,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
