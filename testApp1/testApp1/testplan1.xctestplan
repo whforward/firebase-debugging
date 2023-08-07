@@ -1,0 +1,45 @@
+{
+  "configurations" : [
+    {
+      "id" : "046B4297-4DC5-49EE-AE3C-2D660E3ACAD5",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:Sexcellent.xcodeproj",
+          "identifier" : "B36A83152449AE380034E93E",
+          "name" : "Sexcellent-pub"
+        }
+      ]
+    },
+    "environmentVariableEntries" : [
+      {
+        "key" : "FIRAAppCheckDebugToken",
+        "value" : "APP_CHECK_DEBUG_TOKEN_PLACEHOLDER"
+      },
+      {
+        "key" : "RevenueCatAPISecret",
+        "value" : "REVENUECAT_API_SECRET_PLACEHOLDER"
+      },
+      {
+        "key" : "environment",
+        "value" : "dev"
+      },
+      {
+        "key" : "tests_running",
+        "value" : "true"
+      }
+    ],
+    "uiTestingScreenshotsLifetime" : "keepAlways"
+  },
+  "testTargets" : [
+
+  ],
+  "version" : 1
+}
