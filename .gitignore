@@ -1,4 +1,8 @@
-
+.DS_Store
+*.DS_Store
 testApp1/.DS_Store
+testApp1/testApp1.xcodeproj/project.xcworkspace/xcuserdata/
+testApp1/testApp1.xcodeproj/xcuserdata/
 testApp1/testApp1.xcodeproj/project.xcworkspace/xcuserdata/philgo.xcuserdatad/UserInterfaceState.xcuserstate
 *.xcuserstate
+testApp1/testApp1.xcodeproj/xcuserdata/philgo.xcuserdatad/xcschemes/xcschememanagement.plist
