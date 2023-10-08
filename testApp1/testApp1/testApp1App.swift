@@ -7,6 +7,10 @@
 
 import SwiftUI
 
+#if !os(visionOS)
+import FirebaseAnalytics
+#endif
+
 @main
 struct Main: App {
 
